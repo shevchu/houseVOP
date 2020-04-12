@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Jaffna';
+    src: url('fonts/Jaffna.ttf');
+}
+
 body {
     background-color: #242B33;
     color: #ffffff;
@@ -26,11 +31,13 @@ body {
 }
 
 .name {
-    font-family: 'Post No Bills Jaffna SemiBold',
+    font-size: 36px;
+    font-family: 'Jaffna', sans-serif;
 }
 
 .item {
     font-size: 12px;
+    text-transform: uppercase;
 }
 
 .header__items > a {
