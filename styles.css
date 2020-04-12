@@ -1,0 +1,45 @@
+body {
+    background-color: #242B33;
+    color: #ffffff;
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-family: 'Post No Bills Jaffna SemiBold',
+}
+
+.item {
+    font-size: 12px;
+}
+
+.header__items > a {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__items:first-child {
+    margin-left: 0;
+}
