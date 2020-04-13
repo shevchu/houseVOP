@@ -7,15 +7,31 @@
     background-image: url("../img/housevop.png");
 }
 
-
 .description > h1{
     color: #D4C17F;
     font-size: 48px;
     font-family: 'Playfair Display', serif;
     width: 556px;
     text-align: center;
+    padding-top: 200px;
 }
 
 .contacts {
     font-size: 18px;
+    padding-top: 340px;
+}
+
+.icons {
+    height: 420px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.appartments h2 {
+    font-size: 36px;
+    color: #D4C17F;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
