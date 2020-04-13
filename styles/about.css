@@ -1,0 +1,21 @@
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 740px;
+    background-image: url("../img/housevop.png");
+}
+
+
+.description > h1{
+    color: #D4C17F;
+    font-size: 48px;
+    font-family: 'Playfair Display', serif;
+    width: 556px;
+    text-align: center;
+}
+
+.contacts {
+    font-size: 18px;
+}
