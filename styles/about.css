@@ -62,16 +62,41 @@ button {
     margin-bottom: 53px;
 }
 
-.appartments h2 {
+
+h2 {
     font-size: 36px;
     color: #D4C17F;
     font-family: 'Playfair Display', serif;
 }
 
-.loft {
+.lofts {
     display: grid;
     grid-template-columns: repeat(2, 535px);
     grid-template-rows: repeat(2, 320px);
     grid-gap: 30px;
     margin-top: 100px;
+    font-size: 24px;
+}
+
+.loft span{
+    border: 1px
+
+}
+
+.feedback {
+    background-image: url("../img/build.png");
+    min-height: 560px;
+    font-size: 16px;
+}
+
+.region {
+    /*border: 1px solid; */
+
+
+}
+
+.video {
+
+
+
 }
