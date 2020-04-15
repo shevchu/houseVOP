@@ -104,15 +104,29 @@ h2 {
 
 .region {
     border: 1px solid; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 }
 
+.contact-form__input {
+    width: 255px;
+    height: 50px;
+    color: #BEBEBE;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    opacity: 20%;
+}
+
 .video {
-    text-align: center;
     background-image: url("../img/video.png");
-    max-width: 719px;
-    min-height: 650px;
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 720px;
+    margin: 0 auto;
 }
 
 .map {
@@ -132,4 +146,10 @@ h2 {
     color: #ffffff;
     background-color: #D4C17F;
     font-size: 16px;
+}
+
+.footer {
+    background-color: #2D343C;
+    min-height: 272px;
+    margin-top: 180px;
 }
