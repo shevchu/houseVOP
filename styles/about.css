@@ -87,14 +87,6 @@ h2 {
     background-image: url("../img/лофт2эт.png");
 }
 
-.loft_2  span{
-    border: 1px solid;
-}
-
-.loft_3  span{
-    border: 1px solid;
-
-}
 
 .feedback {
     background-image: url("../img/build.png");
@@ -109,6 +101,7 @@ h2 {
     align-items: center;
 
 
+
 }
 
 .contact-form__input {
@@ -118,6 +111,11 @@ h2 {
     background-color: #FFFFFF;
     font-size: 14px;
     opacity: 20%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
 }
 
 .video {
@@ -138,7 +136,11 @@ h2 {
 .questions {
     margin-top: 180px;
     border: 1px solid;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 .button {
     width: 255px;
@@ -152,4 +154,26 @@ h2 {
     background-color: #2D343C;
     min-height: 272px;
     margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer__items a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    color:#D4C17F;
+    font-size: 14px;
+
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
 }
