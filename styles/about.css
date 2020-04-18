@@ -23,19 +23,14 @@
     display: flex;
     justify-content: space-between;
 }
-button {
-    margin-left: 30px;
-    padding: 20px;
-}
 
 .contact {
     display: flex;
     align-items: center;
 }
 
-.contact span{
+.contact span {
     margin-left: 15px;
-
 }
 
 .icons {
@@ -62,13 +57,6 @@ button {
     margin-bottom: 53px;
 }
 
-
-h2 {
-    font-size: 36px;
-    color: #D4C17F;
-    font-family: 'Playfair Display', serif;
-}
-
 .lofts {
     display: grid;
     grid-template-columns: repeat(2, 535px);
@@ -78,8 +66,19 @@ h2 {
     font-size: 24px;
 }
 
+.loft {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.loft__title {
+    margin-left: 50px;
+    margin-bottom: 50px; 
+}
+
 .loft_3 {
-    background-image: url("../img/лофт3эт1.png");s
+    background-image: url("../img/лофт3эт1.png");
 }
 
 
@@ -92,31 +91,63 @@ h2 {
     background-image: url("../img/build.png");
     min-height: 560px;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.region {
-    border: 1px solid; 
-    display: flex;
+.feedback__content {
+    margin-top: 30px;
+}
+
+.feedback__description {
     flex-direction: column;
-    align-items: center;
-
-
-
+    justify-content: flex-end;
+    display: flex;
+    line-height: 24px;
 }
 
 .contact-form__input {
     width: 255px;
     height: 50px;
     color: #BEBEBE;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, .2);
     font-size: 14px;
-    opacity: 20%;
+    margin-left: 30px;
+    border: 0;
 }
 
+.contact-form__input::placeholder {
+    color: #BEBEBE;
+    text-align: center;
+}
+
+.contact-form__input:first-child {
+    margin-left: 0;
+}
 .contact-form {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    margin-left: 35px;
 }
+
+.contact-form__control{
+    margin-top: 35px;
+}
+
+.contact-form__info {
+    font-size: 13px;
+    text-align: center;
+    max-width: 255px;
+    width: 100%;
+}
+
+.contact-form__button {
+    margin-left: 30px;
+
+}
+
 
 .video {
     background-image: url("../img/video.png");
@@ -125,6 +156,10 @@ h2 {
     height: 650px;
     width: 720px;
     margin: 0 auto;
+}
+
+.location {
+    margin-top: 180px;
 }
 
 .map {
@@ -138,17 +173,9 @@ h2 {
     border: 1px solid;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-
-
-.button {
-    width: 255px;
-    height: 50px;
-    color: #ffffff;
-    background-color: #D4C17F;
-    font-size: 16px;
-}
 
 .footer {
     background-color: #2D343C;
@@ -156,10 +183,11 @@ h2 {
     margin-top: 180px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
-.footer__items a{
+.footer__items a {
     font-size: 14px;
     color: #fff;
     text-decoration: none;
@@ -167,10 +195,9 @@ h2 {
     flex-direction: column;
 }
 
-.mail{
+.mail {
     color:#D4C17F;
     font-size: 14px;
-
 }
 
 .adress {

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/body.css">
@@ -63,38 +64,54 @@
         <h2>Наши квартиры</h2>
         <div class="lofts">
             <div class="loft loft_3">                
-                <span>Лофт - 3 этажа</span>
+                <span class="loft__title">Лофт - 3 этажа</span>
             </div>
             <div class="loft loft_2">
-                <span>Лофт - 2 этажа</span>
+                <span class="loft__title">Лофт - 2 этажа</span>
             </div>
             <div class="loft loft_3">
-                <span>Лофт - 3 этажа</span>
+                <span class="loft__title">Лофт - 3 этажа</span>
             </div>
             <div class="loft loft_2">
-              <span>Лофт - 2 этажа</span>
+              <span class="loft__title">Лофт - 2 этажа</span>
             </div>
         </div>
     </div>
     <div class="feedback">
         <div class="container">
-            <div class="region">
             <h2>Хотите посмотреть?</h2>
-            <div>
-                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> 
+            <div class="flex feedback__content">
+                <p class="feedback__description">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и <br> 
                     вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов <br>
                     на латинице с начала XVI века. В то время некий безымянный <br>
                     печатник создал большую коллекцию размеров и форм шрифтов, <br>
                     используя Lorem Ipsum для распечатки образцов. 
                 </p>
+                <div class="contact-form">
+                    <div class="flex">
+                        <input 
+                            name="name"
+                            type="text" 
+                            class="contact-form__input"
+                            placeholder="Ваше имя"
+                        >
+                        <input 
+                            name="name" 
+                            type="text"
+                            class="contact-form__input"
+                            placeholder="Ваш телефон"
+                        >
+                    </div>
+                    <div class="flex flex_center contact-form__control">
+                        <p class="contact-form__info">
+                            *Мы никому не передаем ваши данные.<br>
+                            И не сохраняем ваш номер в базу.
+                        </p>
+                        <button class="button contact-form__button">Посмотреть район</button>
+                    </div>
+                </div>
             </div>
-
-            <div class="contact-form">
-                <input name="name" type="text" class="contact-form__input" placeholder="Ваше имя">
-                <input name="name" type="text" class="contact-form__input" placeholder="Ваш телефон">
-                <button class="button">Посмотреть район</button>
-            </div>
-        </div>
         </div>
     </div>
     <div class="container">
@@ -102,26 +119,28 @@
             <img src="./img/play.svg" alt="play">
         </div>
     </div>
-    <div class="container">
+    <div class="location container">
         <h2>Район на карте</h2>
         <div class="map"></div>
     </div>
     <div class="container">
         <div class="questions">
-            <div>
                 <h2>Есть вопросы?</h2>
+            <div class="flex">
                 <p>*Мы никому не передаем ваши данные. <br>
-                И не сохраняем ваш номер в базу.</p>
-            </div>
+                    И не сохраняем ваш номер в базу.
+                </p>
             <div class="contact-form">
                 <input name="name" type="text" class="contact-form__input" placeholder="Ваше имя">
                 <input name="name" type="text" class="contact-form__input" placeholder="Ваш телефон">
                 <button class="button">Посмотреть район</button>
             </div>
+            </div>
         </div>
     </div>
-    <footer class="footer">
+    <footer class="footer ">
         <div class="container">
+        <div class="flex">
         <div class="logo">
             <span class="name">HouseVOP</span>
             <span class="item">Жилой комплекс</span> 
@@ -143,6 +162,7 @@
         <img src="./img/vk.svg" alt="VK">
         <img src="./img/facebook.svg" alt="FB">
         <img src="./img/insta.svg" alt="Instagram">
+        </div>
         </div>
     </footer>
 </body>
