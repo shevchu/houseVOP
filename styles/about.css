@@ -128,13 +128,9 @@
 .contact-form {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
     margin-left: 35px;
 }
 
-.contact-form__control{
-    margin-top: 35px;
-}
 
 .contact-form__info {
     font-size: 13px;
@@ -170,10 +166,6 @@
 
 .questions {
     margin-top: 180px;
-    border: 1px solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 
@@ -184,7 +176,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .footer__items a {
@@ -198,9 +195,18 @@
 .mail {
     color:#D4C17F;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .adress {
     display: flex;
     flex-direction: column;
+}
+
+.footer__social-media > img {
+    margin-left:20px;
+}
+
+.footer__social-media > img:first-child {
+    margin-left: 0;
 }

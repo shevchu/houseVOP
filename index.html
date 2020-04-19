@@ -88,7 +88,7 @@
                     печатник создал большую коллекцию размеров и форм шрифтов, <br>
                     используя Lorem Ipsum для распечатки образцов. 
                 </p>
-                <div class="contact-form">
+                <div class="contact-form flex flex_column">
                     <div class="flex">
                         <input 
                             name="name"
@@ -103,7 +103,7 @@
                             placeholder="Ваш телефон"
                         >
                     </div>
-                    <div class="flex flex_center contact-form__control">
+                    <div class="flex flex_center offset-top_35">
                         <p class="contact-form__info">
                             *Мы никому не передаем ваши данные.<br>
                             И не сохраняем ваш номер в базу.
@@ -125,44 +125,66 @@
     </div>
     <div class="container">
         <div class="questions">
-                <h2>Есть вопросы?</h2>
-            <div class="flex">
-                <p>*Мы никому не передаем ваши данные. <br>
+            <h2>Есть вопросы?</h2>
+            <div class="offset-top_50 flex flex_center">
+                <p class="contact-form__info">
+                    *Мы никому не передаем ваши данные. <br>
                     И не сохраняем ваш номер в базу.
                 </p>
-            <div class="contact-form">
-                <input name="name" type="text" class="contact-form__input" placeholder="Ваше имя">
-                <input name="name" type="text" class="contact-form__input" placeholder="Ваш телефон">
-                <button class="button">Посмотреть район</button>
-            </div>
+                <div class="contact-form">
+                    <input 
+                        name="name" 
+                        type="text" 
+                        class="contact-form__input"
+                        placeholder="Ваше имя"
+                    >
+                    <input 
+                        name="name" 
+                        type="text" 
+                        class="contact-form__input"
+                        placeholder="Ваш телефон"
+                    >
+                    <button class="button contact-form__button">Посмотреть район</button>
+                </div>
             </div>
         </div>
     </div>
-    <footer class="footer ">
+    <footer class="footer">
         <div class="container">
-        <div class="flex">
-        <div class="logo">
-            <span class="name">HouseVOP</span>
-            <span class="item">Жилой комплекс</span> 
-        </div>
-        <div class="footer__items">
-            <a href="#">О комплексе</a>
-            <a href="#">Район</a>
-            <a href="#">Каталог квартир</a>
-            <a href="#">Ипотека</a>
-            <a href="#">Контакты</a>
-        </div>
-        <div class="adress">
-            <span>Адрес: Наб. реки Фонтанки 10-15</span>
-            <span>Телефон: 8 (812) 123-45-67</span>
-            <span>Отдел продаж: 10:00 - 20:00</span>
-            <span>E-mail: <span class="mail">vip@housevip.ru</span> </span>
-        </div>
-        <img src="./img/youtube.svg" alt="Youtube">
-        <img src="./img/vk.svg" alt="VK">
-        <img src="./img/facebook.svg" alt="FB">
-        <img src="./img/insta.svg" alt="Instagram">
-        </div>
+            <div class="footer__content flex">
+                <div class="margin logo">
+                    <span class="name">HouseVOP</span>
+                    <span class="item">Жилой комплекс</span> 
+                </div>
+                <div class="margin footer__items">
+                    <a href="#">О комплексе</a>
+                    <a href="#">Район</a>
+                    <a href="#">Каталог квартир</a>
+                    <a href="#">Ипотека</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="margin footer__items">
+                    <a href="#">О комплексе</a>
+                    <a href="#">Район</a>
+                    <a href="#">Каталог квартир</a>
+                    <a href="#">Ипотека</a>
+                    <a href="#">Контакты</a>
+                </div>
+                <div class="margin adress">
+                    <span>Адрес: Наб. реки Фонтанки 10-15</span>
+                    <span>Телефон: 8 (812) 123-45-67</span>
+                    <span>Отдел продаж: 10:00 - 20:00</span>
+                    <span>E-mail:
+                         <span class="mail">vip@housevip.ru</span>
+                    </span>
+                    <div class="footer__social-media">
+                        <img src="./img/youtube.svg" alt="Youtube">
+                        <img src="./img/vk.svg" alt="VK">
+                        <img src="./img/facebook.svg" alt="FB">
+                        <img src="./img/insta.svg" alt="Instagram">
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

@@ -13,6 +13,9 @@
 .flex {
     display: flex;
 }
+.flex_column {
+    flex-direction: column;
+}
 
 .flex_center {
     align-items: center;
@@ -31,4 +34,19 @@ h2 {
     font-size: 36px;
     color: #D4C17F;
     font-family: 'Playfair Display', serif;
+}
+
+.margin > *{
+    margin-top: 16px;
+}
+
+.offset-top_50 {
+    margin-top: 50px;
+}
+.offset-top_35 {
+    margin-top: 35px;
+}
+
+.margin > *:first-child {
+    margin-top: 0;
 }
